@@ -21,7 +21,7 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'pry-rails'
-  gem 'pry-debugger'
+  #gem 'pry-debugger'
   gem 'pry-stack_explorer'
 
   gem 'annotate'

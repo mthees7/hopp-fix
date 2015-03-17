@@ -2,7 +2,6 @@
 <html>
 <head>
   <title>hopp</title>
-  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
@@ -12,12 +11,11 @@
   <link href='http://fonts.googleapis.com/css?family=Cabin:400,700|Oswald:400,700' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    "application", :media => "all" %>
 
-  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-  <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
-
-  <script type="text/javascript" src="http://dev.jtsage.com/cdn/datebox/latest/jqm-datebox.core.min.js"></script>
-  <script type="text/javascript" src="http://dev.jtsage.com/cdn/datebox/latest/jqm-datebox.mode.durationbox.min.js"></script>
-  <script type="text/javascript" src="http://dev.jtsage.com/cdn/datebox/i18n/jquery.mobile.datebox.i18n.en_US.utf8.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+  <script src="https://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile-datebox/1.1.1/jqm-datebox.comp.calbox.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile-datebox/1.1.1/jqm-datebox.comp.durationbox.js"></script>
+  <%= javascript_include_tag "application" %>
 
   <link rel="stylesheet" href="path/to/add2home.css">
   <script type="application/javascript" src="path/to/add2home.js"></script>
